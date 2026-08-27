@@ -1,0 +1,31 @@
+{
+  "greetings": [
+    {"pattern": ["hello", "hi", "hey"], "response": "Hello! How can I help you with Python today?"},
+    {"pattern": ["good morning", "good afternoon"], "response": "Good day! Ready to learn about Python?"}
+  ],
+  "farewell": [
+    {"pattern": ["bye", "goodbye", "exit"], "response": "Goodbye! Keep coding in Python!"}
+  ],
+  "python_basics": [
+    {"pattern": ["what is python", "python introduction"], "response": "Python is a high-level, interpreted programming language known for its simplicity and readability."},
+    {"pattern": ["python features"], "response": "Python features include: easy syntax, dynamic typing, garbage collection, extensive libraries, and cross-platform compatibility."}
+  ],
+  "variables": [
+    {"pattern": ["variables in python", "python variables"], "response": "Variables in Python are containers for storing data values. They don't need explicit declaration and are dynamically typed."}
+  ],
+  "loops": [
+    {"pattern": ["python loops", "for loop in python", "while loop"], "response": "Python supports for loops (iterating over sequences) and while loops (repeating while condition is true). Both are versatile and easy to use."}
+  ],
+  "functions": [
+    {"pattern": ["python functions", "def function"], "response": "Functions in Python are defined using the 'def' keyword. They can take arguments, return values, and have default parameters."}
+  ],
+  "lists": [
+    {"pattern": ["python lists", "list operations"], "response": "Lists in Python are mutable sequences that can hold items of different types. Common operations include append, remove, slicing, and list comprehensions."}
+  ],
+  "dictionaries": [
+    {"pattern": ["python dictionaries", "dict"], "response": "Dictionaries in Python are key-value pairs. They are mutable, dynamic, and can be nested. Keys must be immutable."}
+  ],
+  "error_handling": [
+    {"pattern": ["exception handling", "try except python"], "response": "Python uses try-except blocks for exception handling. You can catch specific exceptions and use finally for cleanup operations."}
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "faqs": [
+    {
+      "question": "How do I install Python?",
+      "answer": "Download Python from python.org and run the installer. Make sure to check 'Add Python to PATH' during installation."
+    },
+    {
+      "question": "What is pip?",
+      "answer": "pip is Python's package installer. It's used to install and manage Python packages. Use 'pip install package_name' to install packages."
+    },
+    {
+      "question": "How do I create a virtual environment?",
+      "answer": "Use 'python -m venv myenv' to create a virtual environment. Activate it with 'myenv\\Scripts\\activate' (Windows) or 'source myenv/bin/activate' (Mac/Linux)."
+    },
+    {
+      "question": "What are list comprehensions?",
+      "answer": "List comprehensions provide a concise way to create lists. Example: [x**2 for x in range(10)] creates a list of squares from 0 to 9."
+    },
+    {
+      "question": "How do I handle exceptions?",
+      "answer": "Use try-except blocks. Example: try: risky_code() except Exception as e: handle_error(e)"
+    },
+    {
+      "question": "What is PEP 8?",
+      "answer": "PEP 8 is Python's style guide. It provides conventions for writing readable Python code, including indentation, naming, and formatting."
+    },
+    {
+      "question": "How do I use decorators?",
+      "answer": "Decorators are functions that modify other functions. Use the @ syntax. Example: @timer def my_function(): ..."
+    },
+    {
+      "question": "What are magic methods?",
+      "answer": "Magic methods (dunder methods) are special methods in Python like __init__, __str__, __add__. They're used to define behavior for built-in operations."
+    }
+  ]
+}
